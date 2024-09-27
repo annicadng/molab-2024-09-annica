@@ -1,10 +1,11 @@
 import UIKit
 
+// !!@ JHT: Needs to be a Xcode project not playground.
+
 let dim = 1500.0
 let color = [CGFloat(arc4random_uniform(256)) / 255.0,CGFloat(arc4random_uniform(256)) / 255.0,CGFloat(arc4random_uniform(256)) / 255.0]
 let strokeLen = 0.75
 let renderer = UIGraphicsImageRenderer(size: CGSize(width: dim, height: dim))
-
 
 var image = renderer.image { (context) in
     
