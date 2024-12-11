@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71182F7C2CDE6DB100010C2F /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F7B2CDE6DB100010C2F /* FinalProjectApp.swift */; };
-		71182F7E2CDE6DB100010C2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F7D2CDE6DB100010C2F /* ContentView.swift */; };
+		71181F6C2CF0DB36005C2726 /* FinalProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71181F6B2CF0DB36005C2726 /* FinalProject.swift */; };
+		71181F702CF0DE11005C2726 /* ConnectPacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71181F6F2CF0DE11005C2726 /* ConnectPacksView.swift */; };
+		71181F722CF0DE74005C2726 /* ConnectPackItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71181F712CF0DE74005C2726 /* ConnectPackItemView.swift */; };
+		71181F752CF0E748005C2726 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71181F742CF0E748005C2726 /* Profile.swift */; };
+		71181F772CF0EB6B005C2726 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71181F762CF0EB6B005C2726 /* EditProfile.swift */; };
+		71182F7C2CDE6DB100010C2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F7B2CDE6DB100010C2F /* ContentView.swift */; };
 		71182F802CDE6DB300010C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71182F7F2CDE6DB300010C2F /* Assets.xcassets */; };
 		71182F842CDE6DB300010C2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71182F832CDE6DB300010C2F /* Preview Assets.xcassets */; };
-		71182F8E2CDE6DB400010C2F /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F8D2CDE6DB400010C2F /* FinalProjectTests.swift */; };
-		71182F982CDE6DB400010C2F /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F972CDE6DB400010C2F /* FinalProjectUITests.swift */; };
-		71182F9A2CDE6DB400010C2F /* FinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71182F992CDE6DB400010C2F /* FinalProjectUITestsLaunchTests.swift */; };
+		716FADB42CE7A864002BF9CB /* LightEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FADB32CE7A864002BF9CB /* LightEditorView.swift */; };
+		716FADB62CE7A88A002BF9CB /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FADB52CE7A88A002BF9CB /* ControlView.swift */; };
+		716FADB82CE7A908002BF9CB /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FADB72CE7A908002BF9CB /* ColorPickerView.swift */; };
+		716FADBC2CE7A9B0002BF9CB /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FADBB2CE7A9B0002BF9CB /* ColorCircleView.swift */; };
+		716FADC02CE7AA8C002BF9CB /* BatteryStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FADBF2CE7AA8C002BF9CB /* BatteryStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71181F6B2CF0DB36005C2726 /* FinalProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProject.swift; sourceTree = "<group>"; };
+		71181F6F2CF0DE11005C2726 /* ConnectPacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPacksView.swift; sourceTree = "<group>"; };
+		71181F712CF0DE74005C2726 /* ConnectPackItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPackItemView.swift; sourceTree = "<group>"; };
+		71181F742CF0E748005C2726 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		71181F762CF0EB6B005C2726 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		71182F782CDE6DB100010C2F /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		71182F7B2CDE6DB100010C2F /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
-		71182F7D2CDE6DB100010C2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71182F7B2CDE6DB100010C2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71182F7F2CDE6DB300010C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71182F812CDE6DB300010C2F /* FinalProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalProject.entitlements; sourceTree = "<group>"; };
 		71182F832CDE6DB300010C2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71182F892CDE6DB400010C2F /* FinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71182F8D2CDE6DB400010C2F /* FinalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectTests.swift; sourceTree = "<group>"; };
 		71182F932CDE6DB400010C2F /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71182F972CDE6DB400010C2F /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
-		71182F992CDE6DB400010C2F /* FinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		716FADB32CE7A864002BF9CB /* LightEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightEditorView.swift; sourceTree = "<group>"; };
+		716FADB52CE7A88A002BF9CB /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		716FADB72CE7A908002BF9CB /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		716FADBB2CE7A9B0002BF9CB /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		716FADBF2CE7AA8C002BF9CB /* BatteryStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +84,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71181F732CF0E718005C2726 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				71181F742CF0E748005C2726 /* Profile.swift */,
+				71181F762CF0EB6B005C2726 /* EditProfile.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
 		71182F6F2CDE6DB100010C2F = {
 			isa = PBXGroup;
 			children = (
 				71182F7A2CDE6DB100010C2F /* FinalProject */,
-				71182F8C2CDE6DB400010C2F /* FinalProjectTests */,
-				71182F962CDE6DB400010C2F /* FinalProjectUITests */,
 				71182F792CDE6DB100010C2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +114,11 @@
 		71182F7A2CDE6DB100010C2F /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				71182F7B2CDE6DB100010C2F /* FinalProjectApp.swift */,
-				71182F7D2CDE6DB100010C2F /* ContentView.swift */,
+				71181F732CF0E718005C2726 /* UserProfile */,
+				71181F6B2CF0DB36005C2726 /* FinalProject.swift */,
+				71182F7B2CDE6DB100010C2F /* ContentView.swift */,
+				716FADBA2CE7A967002BF9CB /* Connections */,
+				716FADB92CE7A939002BF9CB /* LightEditor */,
 				71182F7F2CDE6DB300010C2F /* Assets.xcassets */,
 				71182F812CDE6DB300010C2F /* FinalProject.entitlements */,
 				71182F822CDE6DB300010C2F /* Preview Content */,
@@ -112,21 +134,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		71182F8C2CDE6DB400010C2F /* FinalProjectTests */ = {
+		716FADB92CE7A939002BF9CB /* LightEditor */ = {
 			isa = PBXGroup;
 			children = (
-				71182F8D2CDE6DB400010C2F /* FinalProjectTests.swift */,
+				716FADB32CE7A864002BF9CB /* LightEditorView.swift */,
+				716FADBB2CE7A9B0002BF9CB /* ColorCircleView.swift */,
+				716FADB72CE7A908002BF9CB /* ColorPickerView.swift */,
+				716FADBF2CE7AA8C002BF9CB /* BatteryStatusView.swift */,
+				716FADB52CE7A88A002BF9CB /* ControlView.swift */,
 			);
-			path = FinalProjectTests;
+			path = LightEditor;
 			sourceTree = "<group>";
 		};
-		71182F962CDE6DB400010C2F /* FinalProjectUITests */ = {
+		716FADBA2CE7A967002BF9CB /* Connections */ = {
 			isa = PBXGroup;
 			children = (
-				71182F972CDE6DB400010C2F /* FinalProjectUITests.swift */,
-				71182F992CDE6DB400010C2F /* FinalProjectUITestsLaunchTests.swift */,
+				71181F6F2CF0DE11005C2726 /* ConnectPacksView.swift */,
+				71181F712CF0DE74005C2726 /* ConnectPackItemView.swift */,
 			);
-			path = FinalProjectUITests;
+			path = Connections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71182F7E2CDE6DB100010C2F /* ContentView.swift in Sources */,
-				71182F7C2CDE6DB100010C2F /* FinalProjectApp.swift in Sources */,
+				716FADB82CE7A908002BF9CB /* ColorPickerView.swift in Sources */,
+				71181F752CF0E748005C2726 /* Profile.swift in Sources */,
+				71181F772CF0EB6B005C2726 /* EditProfile.swift in Sources */,
+				716FADB62CE7A88A002BF9CB /* ControlView.swift in Sources */,
+				716FADC02CE7AA8C002BF9CB /* BatteryStatusView.swift in Sources */,
+				716FADB42CE7A864002BF9CB /* LightEditorView.swift in Sources */,
+				716FADBC2CE7A9B0002BF9CB /* ColorCircleView.swift in Sources */,
+				71181F702CF0DE11005C2726 /* ConnectPacksView.swift in Sources */,
+				71181F722CF0DE74005C2726 /* ConnectPackItemView.swift in Sources */,
+				71182F7C2CDE6DB100010C2F /* ContentView.swift in Sources */,
+				71181F6C2CF0DB36005C2726 /* FinalProject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71182F8E2CDE6DB400010C2F /* FinalProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71182F982CDE6DB400010C2F /* FinalProjectUITests.swift in Sources */,
-				71182F9A2CDE6DB400010C2F /* FinalProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
